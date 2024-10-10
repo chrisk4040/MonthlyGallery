@@ -50,3 +50,20 @@ font-size: 26px;
 .carousel:hover .carousel-control-prev, .carousel:hover .carousel-control-next {
     opacity: 1;
 }
+
+.btn-outline-dark:hover {
+  animation: pulse 2s infinite;
+}
+
+/* add pulse effect to all card buttons*/
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
