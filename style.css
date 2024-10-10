@@ -1,8 +1,9 @@
-#header, 
+#h1 
      {
-        font-family: "Archivo Black", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+        font-family: "private-sans", sans-serif;
+font-weight: 700;
+font-style: normal;
+
       }
     
 #body {
@@ -10,9 +11,42 @@
 }
 
 #p {
-    font-size: 24px;
-        font-family: "Archivo Black", sans-serif;
-        font-weight: 300;
-        font-style: normal;
+    font-family: "private-sans", sans-serif;
+font-weight: 400;
+font-style: italic;
+font-size: 26px;
       
+}
+
+.carousel {
+    border-radius: 10px; 
+    overflow: hidden; 
+  }
+  
+  .carousel-inner {
+    width: 100%; /* make carousel inner width responsive */
+    height: 300px; /* set a fixed height for demo purposes */
+    border-radius: 10px; /* add rounded corners */
+  }
+  
+  .carousel-item {
+    width: 100%; /* make carousel item width responsive */
+    height: 300px; /* set a fixed height for demo purposes */
+    border-radius: 10px; /* add rounded corners */
+  }
+  
+  .carousel-item img {
+    width: 100%; /* make image width responsive */
+    height: 300px; /* set a fixed height for demo purposes */
+    object-fit: cover; /* make image cover the entire carousel item */
+    border-radius: 10px; /* add rounded corners */
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.carousel:hover .carousel-control-prev, .carousel:hover .carousel-control-next {
+    opacity: 1;
 }
