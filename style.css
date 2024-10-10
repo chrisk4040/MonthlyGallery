@@ -35,7 +35,7 @@ font-size: 26px;
     border-radius: 10px; /* add rounded corners */
   }
   
-  .carousel-item img {
+  .carousel-item {
     width: 100%; /* make image width responsive */
     height: 300px; /* set a fixed height for demo purposes */
     object-fit: cover; /* make image cover the entire carousel item */
